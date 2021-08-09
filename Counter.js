@@ -2,7 +2,7 @@ document.body.onload = function () {
     var myNumbers = 1;
    
     let counterButton = document.getElementById("counterBtn");
-    counterButton.style.backgroundColor = 'yellow';
+    counterButton.style.backgroundColor = 'green';
   
     counterButton.addEventListener("click", function () {
         let Counter = document.getElementById("counter");
