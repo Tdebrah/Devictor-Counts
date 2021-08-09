@@ -2,8 +2,8 @@ document.body.onload = function () {
     var myNumbers = 1;
    
     let counterButton = document.getElementById("counterBtn");
-    counterButton.style.backgroundColor = "green";
-    counterButton.disabled= false;
+    counterButton.style.backgroundColor = 'yellow';
+    counterButton.disabled= true;
     counterButton.addEventListener("click", function () {
         let Counter = document.getElementById("counter");
         let message = document.getElementById("Message");
