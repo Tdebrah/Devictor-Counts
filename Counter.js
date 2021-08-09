@@ -2,7 +2,7 @@ document.body.onload = function () {
     var myNumbers = 1;
    
     let counterButton = document.getElementById("counterBtn");
-
+    counterButton.disabled= true;
     counterButton.addEventListener("click", function () {
         let Counter = document.getElementById("counter");
         let message = document.getElementById("Message");
@@ -22,7 +22,7 @@ document.body.onload = function () {
             desscriptions.innerHTML = "Oops! You've reached your count limit"
             desscriptions.style.color = "red";
             desscriptions.style.fontSize = '2rem';
-            counterButton.disabled= true;
+           
         }
         else {
             message.style.color= 'blue';
