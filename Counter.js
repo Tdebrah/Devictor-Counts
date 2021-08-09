@@ -22,7 +22,7 @@ document.body.onload = function () {
             desscriptions.innerHTML = "Oops! You've reached your count limit"
             desscriptions.style.color = "red";
             desscriptions.style.fontSize = '2rem';
-            counterButton.disable = true;
+            
         }
         else {
             message.style.color= 'blue';
