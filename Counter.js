@@ -20,7 +20,7 @@ document.body.onload = function () {
             message.style.color= 'green';
             message.innerHTML = "Buzz";
         } else if (myNumbers == 17) {
-            desscriptions.innerHTML = "Oops! You've reached your count limit"
+            desscriptions.innerHTML = "Oops! You've reached your count limit!!"
             desscriptions.style.color = "red";
             desscriptions.style.fontSize = '2rem';
            
